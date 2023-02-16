@@ -15,10 +15,12 @@ python3 main.py
 git clone
 cd app
 ## in Linux or MacOs
+python3 -m venv env
 source env/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
 ## in Windows
+py -m venv env
 .\env\Scripts\activate
 py -m pip install -r requirements.txt
 py main.py
