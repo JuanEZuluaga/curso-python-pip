@@ -8,3 +8,20 @@ python3 main.py
 ```
 
 
+
+# App Project
+
+```sh
+git clone
+cd app
+## in Linux or MacOs
+source env/bin/activate
+pip3 install -r requirements.txt
+python3 main.py
+## in Windows
+.\env\Scripts\activate
+py -m pip install -r requirements.txt
+py main.py
+```
+
+
